@@ -1,5 +1,14 @@
+# Dependencies (reinstalled inside container)
 node_modules
+
+# Environment secrets (injected at runtime on EC2)
 .env
-*.log
+.env.*
+
+# Git
 .git
 .gitignore
+
+# Docs & meta
+README.md
+*.log
